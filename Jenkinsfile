@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
         ORG         = 'jenkinsxio'
-        APP_NAME    = 'builder-go'
+        APP_NAME    = 'builder-cookbook'
     }
     stages {
         stage('CI Build and push snapshot') {
