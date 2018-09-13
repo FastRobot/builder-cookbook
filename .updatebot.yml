@@ -1,6 +1,6 @@
 github:
   organisations:
-  - name: jenkins-x
+  - name: fastrobot
     repositories:
     - name: jenkins-x-platform
     - name: builder-go-maven

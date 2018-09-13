@@ -12,8 +12,7 @@ ENV PATH $PATH:/opt/chefdk/bin
 ENV PATH $PATH:/opt/chefdk/embedded/bin
 ENV PATH $PATH:/usr/local/bin
 ENV GEM_ROOT /opt/chefdk/embedded/lib/ruby/gems/2.5.0
-# ENV GEM_HOME /some/home/.chefdk/gem/ruby/2.5.0
-# ENV GEM_PATH /some/home/.chefdk/gem/ruby/2.5.0:/opt/chefdk/embedded/lib/ruby/gems/2.5.0
-ENV GEM_PATH opt/chefdk/embedded/lib/ruby/gems/2.5.0
+ENV GEM_HOME /root/.chefdk/gem/ruby/2.5.0
+ENV GEM_PATH /root/.chefdk/gem/ruby/2.5.0:/opt/chefdk/embedded/lib/ruby/gems/2.5.0
 
 CMD ["chef","-v"]
